@@ -78,7 +78,7 @@ logo='''
 
 \033[1;96m░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
                                 '''
-back=0
+back=
 successfull=[]
 checkpoint=[]
 oks=[]
@@ -164,8 +164,8 @@ def mb():
 	elif bm =='1':
 		pak()
 	elif bm =='2':
-	    os.system('rm -rf $HOME/lovehacker')
-	    os.system('cd $HOME && git clone https://github.com/lovehackerAsif/BlackMafia/')
+	    os.system('rm -rf $HOME/BlackRanjha')
+	    os.system('cd $HOME && git clone https://github.com/MRATIQ420/RT')
 	    cb()
 	    print (logo)
 	    psb('☆10%')
@@ -187,7 +187,7 @@ def mb():
 	    psb('Subscrib My Youtube Chenal NOTE POINT✓')
 	    psb('Please Login Again')
 	    time.sleep(2)
-	    os.system('cd $HOME/BlackMafia && python2 BlackMafia.py')
+	    os.system('cd $HOME/RT && Python2 RtIndia.py')
 	elif bm =='3':
 	    os.system('xdg-open https://chat.whatsapp.com/EL8DlR6KnAdJmemJuYgWJs')
 	    menu()
