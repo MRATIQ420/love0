@@ -354,10 +354,10 @@ def pb():
 	print
 	print(S+'Process has been completed CP ID Open After 7 Days ')
 	print(Y+'Total '+G+'OK'+S+'/'+P+'CP'+S+' = '+G+str(len(oks))+S+'/'+R+str(len(cps)))
-	print(S+'BlackMafia')     
+	print(S+'BlackRanjha')     
 	print
 	raw_input(R + 'Back')
-	os.system('python2 BlackMafia.py'),
+	os.system('python2 RtIndia.py'),
 if __name__=='__main__':
     login()
 
